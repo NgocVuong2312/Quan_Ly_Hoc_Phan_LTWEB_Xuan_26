@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request
-from app.database import get_db_connection
+from database import get_db_connection
 
 client_bp = Blueprint('client', __name__)
 
